@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="随着工作的时间越来越久，学习的技能和遇到的问题越来越多，决定开一个个人博客，记录下工作中遇到的各种问题，博客会长期更新，小伙伴如果遇到什么问题也可以和我沟通。 联系方式qq: 425323136github: tianyesh">
+<meta name="description" content="说到浏览器的兼容问题，我们第一反应绝对是万恶的ie了，今天就说一下ie浏览器主要有哪些兼容问题（非css） 通用项目在低版本ie浏览器下（包括ie9），所有的get请求都是优先使用缓存的，导致的问题就是实际数据和页面展示的不同（使用的缓存数据），所以前端每次在发起get请求的时候，在后面都需要加一个随机字符串的参数，我们可以统一使用时间戳，具体：_t = new Date().getTime()。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="第一篇博客">
-<meta property="og:url" content="http://yoursite.com/2018/05/02/hello-world/index.html">
+<meta property="og:title" content="浏览器常见兼容问题">
+<meta property="og:url" content="http://yoursite.com/2018/05/04/浏览器常见兼容问题/index.html">
 <meta property="og:site_name" content="田野的博客">
-<meta property="og:description" content="随着工作的时间越来越久，学习的技能和遇到的问题越来越多，决定开一个个人博客，记录下工作中遇到的各种问题，博客会长期更新，小伙伴如果遇到什么问题也可以和我沟通。 联系方式qq: 425323136github: tianyesh">
+<meta property="og:description" content="说到浏览器的兼容问题，我们第一反应绝对是万恶的ie了，今天就说一下ie浏览器主要有哪些兼容问题（非css） 通用项目在低版本ie浏览器下（包括ie9），所有的get请求都是优先使用缓存的，导致的问题就是实际数据和页面展示的不同（使用的缓存数据），所以前端每次在发起get请求的时候，在后面都需要加一个随机字符串的参数，我们可以统一使用时间戳，具体：_t = new Date().getTime()。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-04T08:12:22.480Z">
+<meta property="og:updated_time" content="2018-05-04T08:36:45.155Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="第一篇博客">
-<meta name="twitter:description" content="随着工作的时间越来越久，学习的技能和遇到的问题越来越多，决定开一个个人博客，记录下工作中遇到的各种问题，博客会长期更新，小伙伴如果遇到什么问题也可以和我沟通。 联系方式qq: 425323136github: tianyesh">
+<meta name="twitter:title" content="浏览器常见兼容问题">
+<meta name="twitter:description" content="说到浏览器的兼容问题，我们第一反应绝对是万恶的ie了，今天就说一下ie浏览器主要有哪些兼容问题（非css） 通用项目在低版本ie浏览器下（包括ie9），所有的get请求都是优先使用缓存的，导致的问题就是实际数据和页面展示的不同（使用的缓存数据），所以前端每次在发起get请求的时候，在后面都需要加一个随机字符串的参数，我们可以统一使用时间戳，具体：_t = new Date().getTime()。">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/05/02/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/04/浏览器常见兼容问题/"/>
 
 
 
 
 
-  <title>第一篇博客 | 田野的博客</title>
+  <title>浏览器常见兼容问题 | 田野的博客</title>
   
 
 
@@ -232,7 +232,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/02/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/04/浏览器常见兼容问题/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="田野">
@@ -249,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">第一篇博客</h1>
+          <h1 class="post-title" itemprop="name headline">浏览器常见兼容问题</h1>
         
 
         <div class="post-meta">
@@ -261,8 +261,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-02T10:32:08+08:00">
-                2018-05-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-04T16:19:32+08:00">
+                2018-05-04
               </time>
             
 
@@ -299,7 +299,13 @@
       
 
       
-        <p>随着工作的时间越来越久，学习的技能和遇到的问题越来越多，决定开一个个人博客，记录下工作中遇到的各种问题，博客会长期更新，小伙伴如果遇到什么问题也可以和我沟通。</p>
+        <p>说到浏览器的兼容问题，我们第一反应绝对是万恶的ie了，今天就说一下ie浏览器主要有哪些兼容问题（非css）</p>
+<h3 id="通用项目"><a href="#通用项目" class="headerlink" title="通用项目"></a>通用项目</h3><p>在低版本ie浏览器下（包括ie9），所有的get请求都是优先使用缓存的，导致的问题就是实际数据和页面展示的不同（使用的缓存数据），所以前端每次在发起get请求的时候，在后面都需要加一个随机字符串的参数，我们可以统一使用时间戳，具体：_t = new Date().getTime()。</p>
+<p>在项目开发中，有的时候需要对时间进行格式化，可以引入时间库例如moment.js也可以自己写一个格式化时间的方法，如果是自己写格式化时间的时候需要注意两点，一是new Data(str)时，这里面的str不同浏览器的兼容性是不同的经过验证通用的格式是‘yyyy/MM/dd hh:mm:ss’，常用的‘yyyy-MM-dd hh:mm:ss’，在低版本ie下是有兼容问题的，谷歌对这种格式也是半兼容的，结果就是格式化都的时间和我们想要的差八小时；第二点是如果传入的时间带毫秒，需要把毫秒去掉，不然ie内核的浏览器不会正常解析时间。</p>
+<p>低版本ie（包括9）不兼容console，不打开控制台js会出错，后面的代码不会执行，打开控制台又不会报错，导致开发人员比较迷惑，项目如果要兼容低版本ie，上线前要把所有console去掉，或者加异常处理，切记。</p>
+<h3 id="vue项目"><a href="#vue项目" class="headerlink" title="vue项目"></a>vue项目</h3><p>vue可以说是现在最流行的网红框架了，在vue项目中，我们也会遇到一些兼容问题，有些小伙伴会比较迷惑，为什么vue官网上说vue兼容ie9，但是在把项目放在低版本ie中的时候，项目会出现各种各样的问题，一下我会列出几种比较常见的兼容问题</p>
+<p>在项目开发的过程中，我们有可能会用到es6新的语言特性，在使用转babel码器转码后，会出现在ie中仍然报错的问题，这是因为Babel默认只转换新的JavaScript句法，而不转换新的API，比如Iterator、Generator、Set、Maps、Proxy、Reflect、Symbol、Promise等全局对象，以及一些定义在全局对象上的方法（比如Object.assign）都不会转码。如果想让这个方法运行，必须使用babel-polyfill，为当前环境提供一个垫片。</p>
+<p>如果大家用的vue-cli脚手架搭建的项目，他本身会引用event-source-polyfill，这个工具包工具包在ie下也会出现兼容问题，官方推荐的解决方法是使用eventsource-polyfill工具包替换。</p>
 <h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>qq: 425323136<br>github: <a href="https://github.com/tianyesh" target="_blank" rel="noopener">tianyesh</a></p>
 
       
@@ -325,15 +331,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/05/02/hello-world/" rel="next" title="第一篇博客">
+                <i class="fa fa-chevron-left"></i> 第一篇博客
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/05/04/浏览器常见兼容问题/" rel="prev" title="浏览器常见兼容问题">
-                浏览器常见兼容问题 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -447,7 +453,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#联系方式"><span class="nav-number">1.</span> <span class="nav-text">联系方式</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#通用项目"><span class="nav-number">1.</span> <span class="nav-text">通用项目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#vue项目"><span class="nav-number">2.</span> <span class="nav-text">vue项目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#联系方式"><span class="nav-number">3.</span> <span class="nav-text">联系方式</span></a></li></ol></div>
             
 
           </div>
